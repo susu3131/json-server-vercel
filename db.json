@@ -1,5 +1,6 @@
-{"users": [
-    
+{
+  "users": [
+    { "id": 1, "user": "susu1234", "passward": "3333" }
   ],
   "posts": [
     { "id": 1, "title": "json-server22", "author": "typicode" }
