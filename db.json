@@ -17,7 +17,7 @@
     "type":"admin"
   }
 ],
-  "order": [
+  "orders": [
     { 
       "id": 1,
       "ordenum": "202211302010", 
@@ -56,5 +56,5 @@
       "body": "床睡起來很舒服" 
     }
   ],
-  "hotel" :[]
+  "hotels" :[]
 }
