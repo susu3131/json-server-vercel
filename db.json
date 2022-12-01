@@ -7,8 +7,15 @@
      "name" : "阿蘇蘇",
      "email" : "susu@yahoo.com.tw",
      "type":"user"
+    },
+     { 
+     "id": 2, 
+     "useraccount" : "admin3333", 
+     "userpassward" : "3333", 
+     "name" : "很有錢",
+     "email" : "admin@gmail.com",
+     "type":"admin"
     }
-  
   ],
   "order": [
     { 
@@ -35,7 +42,7 @@
     "hotelname": "大板根森林旅店"
   },
     {
-    "id": 1,
+    "id": 2,
     "userid": "1",
     "hotelname": "大板根森林旅店"
   },
@@ -43,9 +50,10 @@
   "comments": [
     { 
       "id": 1, 
-      "body": 
+      "userid": 1 
+      "hotelname": "大板根森林旅店" 
+      "body": "床睡起來很舒服" 
       "some comment", 
-      "postId": 1 
     }
   ],
   "hotel" :[]
