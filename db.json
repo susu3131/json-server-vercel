@@ -1,13 +1,52 @@
 {
   "users": [
-    { "id": 1, "user": "susu1234", "passward": "3333" }
+    { 
+     "id": 1, 
+     "useraccount" : "susu3333", 
+     "userpassward" : "3333", 
+     "name" : "阿蘇蘇",
+     "email" : "susu@yahoo.com.tw",
+     "type":"user"
+    }
+  
   ],
-  "posts": [
-    { "id": 1, "title": "json-server22", "author": "typicode" },
-    { "id": 2, "title": "json-server12", "author": "typicode" }
+  "order": [
+    { 
+      "id": 1,
+      "ordenum": "202211302010", 
+      "hotelname": "大板根森林旅店" ,
+      "checkin":"2022-10-03",
+      "checkout":"2022-10-05" ,
+      "orderprice":"5500"
+    },
+    { 
+      "id": 2, 
+      "ordenum": "202211302010", 
+      "hotelname": "大板根森林旅店" ,
+      "checkin":"2022-10-03",
+      "checkout":"2022-10-05" ,
+      "orderprice":"5500"
+    },
   ],
+  "collect":[
+  {
+    "id": 1,
+    "userid": "1",
+    "hotelname": "大板根森林旅店"
+  },
+    {
+    "id": 1,
+    "userid": "1",
+    "hotelname": "大板根森林旅店"
+  },
+   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+    { 
+      "id": 1, 
+      "body": 
+      "some comment", 
+      "postId": 1 
+    }
   ],
-  "profile": { "name": "typicode" }
+  "hotel" :[]
 }
