@@ -1,22 +1,22 @@
 {
   "users": [
     { 
-     "id": 1, 
-     "useraccount" : "susu3333", 
-     "userpassward" : "3333", 
-     "name" : "阿蘇蘇",
-     "email" : "susu@yahoo.com.tw",
-     "type":"user"
+      "id": 1, 
+      "useraccount" : "susu3333", 
+      "userpassward" : "3333", 
+      "name" : "阿蘇蘇",
+      "email" : "susu@yahoo.com.tw",
+      "type":"user"
     },
-     { 
-     "id": 2, 
-     "useraccount" : "admin3333", 
-     "userpassward" : "3333", 
-     "name" : "很有錢",
-     "email" : "admin@gmail.com",
-     "type":"admin"
-    }
-  ],
+    { 
+    "id": 2, 
+    "useraccount" : "admin3333", 
+    "userpassward" : "3333", 
+    "name" : "很有錢",
+    "email" : "admin@gmail.com",
+    "type":"admin"
+  }
+],
   "order": [
     { 
       "id": 1,
@@ -33,27 +33,27 @@
       "checkin":"2022-10-03",
       "checkout":"2022-10-05" ,
       "orderprice":"5500"
-    },
+    }
   ],
   "collect":[
-  {
-    "id": 1,
-    "userid": "1",
-    "hotelname": "大板根森林旅店"
-  },
     {
-    "id": 2,
-    "userid": "1",
-    "hotelname": "大板根森林旅店"
-  },
-   ],
+      "id": 1,
+      "userid": "1",
+      "hotelname": "大板根森林旅店"
+    },
+      {
+      "id": 2,
+      "userid": "1",
+      "hotelname": "大板根森林旅店"
+    }
+  ],
   "comments": [
     { 
       "id": 1, 
-      "userid": 1 
-      "hotelname": "大板根森林旅店" 
+      "userid": "1",
+      "star": "5", 
+      "hotelname": "大板根森林旅店", 
       "body": "床睡起來很舒服" 
-      "some comment", 
     }
   ],
   "hotel" :[]
